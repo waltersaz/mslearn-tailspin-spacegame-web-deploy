@@ -2,8 +2,6 @@ trigger:
 - '*'
 
 pool: waltesbuild
-  demands:
-  - npm
 
 variables:
   buildConfiguration: 'Release'
