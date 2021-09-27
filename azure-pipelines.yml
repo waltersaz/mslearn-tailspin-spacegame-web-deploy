@@ -10,10 +10,7 @@ stages:
   jobs: 
   - job: 'Build'
     displayName: 'Build job'
-    pool:
-      vmImage: 'ubuntu-20.04'
-      demands:
-      - npm
+    pool: waltesbuild
 
     variables:
       wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
